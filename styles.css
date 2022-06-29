@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F8;
+    color: #F9FAF8;
+}
+
+.header {
+    margin: auto;
+}
+
+.top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.middle1 {
+    display: flex;
+}
+
+.middle2 {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.bottom {
+    background-color: #3882F8;
+    color: #F9FAF8;
+    flex-direction: row;
+}
+
+.bible {
+    width: 30%;
+}
