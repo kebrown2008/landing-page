@@ -1,25 +1,32 @@
 body {
     font-family: sans-serif;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
-header {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    font-size: 24px;
+.headerLink {
+    font-size: 18px;
+    list-style-type: none;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
 }
+
+
 
 a {
-    font-size: 18px;
+  text-decoration: none;
+  color: inherit;
 }
 
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -27,30 +34,61 @@ button {
     color: #F9FAF8;
 }
 
-.header {
-    margin: auto;
-}
 
 .top {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    padding: 10%;
 }
 
+.topLeft {
+}
+
+.topRight {
+  margin: auto;
+  flex: 1;
+}
+
+
 .middle1 {
-    display: flex;
+  padding: 5%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .middle2 {
     background-color: #E5E7EB;
-    display: flex;
+    padding: 10%;
 }
 
 .bottom {
     background-color: #3882F8;
     color: #F9FAF8;
-    flex-direction: row;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomButton {
+  display: flex;
+  align-items: center;
+}
+
+.bibleContainer {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bible {
-    width: 30%;
+    width: 75%;
 }
