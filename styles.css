@@ -63,6 +63,7 @@ button {
 .cards {
   display: flex;
   justify-content: space-evenly;
+  padding: 5%;
 }
 
 .middle2 {
