@@ -39,17 +39,28 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 10px;
 }
 
 .topLeft {
+  padding-right: 10%;
+}
+
+.headerLogo {
+  padding-bottom: 10%;
 }
 
 .topRight {
   margin: auto;
-  flex: 1;
+  flex: 1 1 75%;
 }
 
+.headerLink {
+  padding-bottom: 10%;
+}
 
 .middle1 {
   padding: 5%;
@@ -91,5 +102,5 @@ button {
 }
 
 .bible {
-    width: 75%;
+    width: 100%;
 }
